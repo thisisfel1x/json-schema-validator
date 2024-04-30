@@ -97,7 +97,7 @@ public abstract class BaseJsonValidator extends ValidationMessageHandler impleme
     }
 
     protected static void debug(Logger logger, JsonNode node, JsonNode rootNode, JsonNodePath instanceLocation) {
-        logger.debug("validate( {}, {}, {})", node, rootNode, instanceLocation);
+        //logger.debug("validate( {}, {}, {})", node, rootNode, instanceLocation);
     }
 
     /**
